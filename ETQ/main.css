@@ -1,0 +1,28 @@
+
+.front-container{
+    display: grid;
+    grid-template-columns: 930px 1fr;
+    color: rgb(48, 48, 49);;
+    position: relative;
+}
+.front-image{
+    height:620px;
+    width: 980px;
+}
+.front-image-sidetext{
+    position: absolute;
+    flex-shrink: unset;
+    top:230px;
+    left: 1010px;
+    right: 70px;
+}
+.off{
+   margin-bottom: 10px;
+}
+.mid-season{ 
+    font-size: 35px;
+}
+.description,
+.mid-season{
+    margin-bottom: 20px;
+}
